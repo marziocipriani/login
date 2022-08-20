@@ -1,2 +1,2 @@
 # login
-Hace login y registro de usuarios usand Redux
+Hace login y registro de usuarios usando Redux
