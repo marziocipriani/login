@@ -1,0 +1,13 @@
+
+
+.DS_Store
+
+server/node_modules/
+
+cliente/node_modules/
+
+logs/
+
+fuente/
+
+ayudas/

@@ -1,0 +1,40 @@
+<%- layout('layouts/main')%>
+
+   <!-- Top and Bottom circle -->
+   <div class="parent-circle">
+      <div class="circle"></div>
+      <div class="circle"></div>
+   </div>
+
+ <div class="wrapper">   
+      <!-- Start Sign Up Here form -->
+      <div class="login-form">
+      <form action="/signup" method="post" onsubmit="return signupFormCheck()">
+        <h3>Registro de usuario</h3>
+        <div>
+          <label for="">Nombre</label><span class="fullname-warning"></span>
+          <input type="text" placeholder="Nombre Completo" name="nombre" />
+        </div>
+        <div>
+          <label for="">Correo</label>
+          <input type="text"  name="email"  placeholder="Email" id="Email" />
+          <span class="material-icons sign-done">done</span>
+        </div>
+        <div>
+          <label for="">Password</label><span class="password-warning"></span>
+          <input type="password" placeholder="Password" name="password" />
+          <label for="">Confirmar el  Password</label>
+          <input type="password" placeholder="Confirmar Password" id="confirmPassword" />
+        </div>
+        <button class="login-button" type="submit" onclick="">Registrarse</button>
+        <span class="login-link">Ingresar al Sistema</span>
+      </form>
+    </div>
+    <!-- End Sign Up Here form -->
+
+
+
+
+
+
+

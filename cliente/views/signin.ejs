@@ -1,0 +1,43 @@
+<%- layout('layouts/main')%>
+
+   <!-- Top and Bottom circle -->
+   <div class="parent-circle">
+      <div class="circle"></div>
+      <div class="circle"></div>
+   </div>
+
+ <div class="wrapper">   
+      <!-- Start Login Here form -->
+      <div class="login-form">
+         <form action="/signin" method="post" onsubmit="return loginFormCheck()">
+            <h3>Ingreso al Sistema</h3>
+
+             <div>
+               <label for="userName">Usuario</label>
+               <input type="text" placeholder="Email" name="email"  />
+               <span class="material-icons log-done">done</span>
+            </div>
+
+            <div>
+               <label for="userPassword">Password</label>
+              <input type="password" name="password" placeholder="Password"/>
+               <span class="visibility material-icons">visibility_off</span>
+            </div>
+
+            <div>
+               <input type="checkbox" id="rememberMe" name="" value="" />
+               <label for="rememberMe" class="check-box"><span>Recuerdeme</span></label>
+               <span class="forgot-link">Olvidó el Password?</span>
+            </div>
+
+            <button class="login-button" type="submit">Ingresar</button>
+
+            <div class="social">
+              <a href="google.com">Google</a>
+              <a href="facebook.com">Facebook</a>
+            </div>
+            
+            <span class="signup-link">Registro de usuario</span>
+         </form>
+      </div>
+      <!-- End Login Here form -->

@@ -1,0 +1,40 @@
+
+https://medium.com/bitsrc/build-a-login-auth-app-with-mern-stack-part-1-c405048e3669
+
+
+importante.txt
+
+para arrancar necesitamos dos terminales: 
+
+instalar antes esto
+
+npm i -D nodemon
+
+sudo npm install -g nodemon   para  instalacion global
+
+======================
+
+en uno de los terminales:
+
+cd server
+
+node server.js
+
+nodemon run server  debe funcionar
+
+tambien funciona npm start
+
+en una terminal
+
+=======================
+
+en el otro terminal:
+
+
+ sudo npm i -g create-react-app
+
+cd cliente
+
+npm start
+
+======================
